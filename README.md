@@ -5,3 +5,7 @@ Como diminuir a complexidade do nosso código, trocando múltiplas condicionais 
 
 2. Chain of Responsibility. (https://refactoring.guru/design-patterns/chain-of-responsibility)
 A utilizar o padrão para aplicar um desconto dentro de uma cadeia de possíveis descontos
+
+3. template method (https://refactoring.guru/design-patterns/template-method.)
+Reforçamos a ideia de que repetição de código é problemática
+
