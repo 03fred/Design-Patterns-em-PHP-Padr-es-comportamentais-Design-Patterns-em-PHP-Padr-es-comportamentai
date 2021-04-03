@@ -9,3 +9,8 @@ A utilizar o padrão para aplicar um desconto dentro de uma cadeia de possíveis
 3. template method (https://refactoring.guru/design-patterns/template-method.)
 Reforçamos a ideia de que repetição de código é problemática
 
+4. state (https://refactoring.guru/design-patterns/state)
+Que, se o resultado de uma chamada de método depende do estado, podemos delegar esta ação para uma classe específica do estado atual
+Esta técnica se chama padrão State
+Entendemos como o Princípio de Substituição de Liskov pode acabar sendo quebrado em alguns casos na aplicação do State
+
