@@ -27,3 +27,10 @@ Classes muito grandes e difíceis de ler
 Problemas quando precisar alterar a implementação de uma das tarefas
 Que é mais interessante separar cada ação em uma classe separada
 Como ligar um evento ocorrido com suas ações, através do padrão Observer
+
+7. Iterator (https://refactoring.guru/design-patterns/iterator)
+Que os arrays do PHP, embora muito versáteis, podem trazer alguns problemas
+Que uma das regras de Object Calisthenics é sobre encapsular coleções em classes específicas
+Como acessar um objeto, como se fosse uma lista percorrível
+Que, a esta técnica, se dá o nome de Iterator
+Funcionalidades que o PHP nos fornece para implementar de forma muito simples o padrão Iterator

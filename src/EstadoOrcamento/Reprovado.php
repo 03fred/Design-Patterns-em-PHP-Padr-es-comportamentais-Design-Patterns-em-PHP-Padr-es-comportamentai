@@ -1,7 +1,10 @@
 <?php
 
+namespace Alura\DesignPattern\EstadoOrcamento;
+
 use Alura\DesignPattern\EstadoOrcamento\EstadoOrcamento;
 use Alura\DesignPattern\Orcamento;
+use DomainException;
 
 class Reprovado extends EstadoOrcamento
 {
