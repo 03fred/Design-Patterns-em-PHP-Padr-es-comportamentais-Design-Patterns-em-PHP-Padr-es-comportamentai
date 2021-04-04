@@ -16,7 +16,6 @@ $orcamento->quantidadeItens = 7;
 $calculadoraDesconto = new CalculadoraDesconto();
 $valor = $calculadoraDesconto->calcular($orcamento);
 
-var_dump($valor);
 $calculadora = new CalculadoraImpostos();
 
 $icms = $calculadora->calcularImpostos($orcamento, new Icms());

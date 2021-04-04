@@ -20,3 +20,10 @@ Que um caso de uso deve ser extraído para uma classe específica, ao invés de 
 Que a técnica de extração do caso de uso para uma classe específica pode ser chamada de padrão Command
 A diferença do padrão Command da GoF para o padrão que utiliza Command Handler (muito utilizado com DDD)
 
+6. Observer  (https://refactoring.guru/design-patterns/observer)
+Que deixar a implementação de todas as tarefas de um caso de uso da aplicação na mesma classe pode trazer problemas
+Dificuldade de manutenção
+Classes muito grandes e difíceis de ler
+Problemas quando precisar alterar a implementação de uma das tarefas
+Que é mais interessante separar cada ação em uma classe separada
+Como ligar um evento ocorrido com suas ações, através do padrão Observer
